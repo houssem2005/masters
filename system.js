@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 var prefix = "!"
 var adminprefix = '&'
-const developers = ["541614978319384597","id"]
+const developers = ["541614978319384597","524931248657793025"]
  
 client.on('message', message => {
     var p = message.mentions.members.first();
@@ -344,4 +344,5 @@ client.on("guildMemberAdd", member => {
   client.channels.find('id', '563863609441124363').send(` **Welcome To __Te__st Server**  `)
 });
 /////////
-client.login('توكن');
+
+client.login('BOT_TOKEN');
